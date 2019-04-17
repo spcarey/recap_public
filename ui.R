@@ -56,20 +56,19 @@ ui = fluidPage(
                                        " tab."),
                                      h1()),
                            wellPanel(h2("Package information"),
-                                     h4("The following software/packages, with versions, were used in the development of this application."), 
-                                     h5("R 3.4.4"),   
-                                     h5("RStudio 1.1.456"),
-                                     h5("data.table 1.11.8"),
-                                     h5("dplyr 0.7.8"),
-                                     h5("forecast 8.4"),
-                                     h5("ggplot2 3.1.0"),
-                                     h5("grid 3.4.4"),
-                                     h5("gridExtra 2.3"),
-                                     h5("lubridate 1.7.4"),
-                                     h5("scales 1.0.0"),
-                                     h5("shiny 1.0.5"),
-                                     h5("stats 3.4.4"),
-                                     h5("zoo 1.8-4")
+                                     h4("The following R packages were used in the development of this application."), 
+                                     
+                                     h5("data.table"),
+                                     h5("dplyr"),
+                                     h5("forecast"),
+                                     h5("ggplot2"),
+                                     h5("grid"),
+                                     h5("gridExtra"),
+                                     h5("lubridate"),
+                                     h5("scales"),
+                                     h5("shiny"),
+                                     h5("stats"),
+                                     h5("zoo")
                                      
                            ) ##/wellPanel
                        )

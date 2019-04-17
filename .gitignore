@@ -1,4 +1,5 @@
-*.Rproj.user
+recap_public.Rproj
 *.Rhistory
 *.RData
 *.Ruserdata
+.Rproj.user/
